@@ -12,5 +12,7 @@ Al final del día necesito ver un reporte de todo lo ejecutado hasta las 8 de la
 
 ## Como crear un repositorio
 - git checkout -b 2025-02-11
-- git push
+- git push (debe dar error)
+- git push --set-upstream origin 2025-02-11
+- git checkout main
 - 
