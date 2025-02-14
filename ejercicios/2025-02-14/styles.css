@@ -2,11 +2,11 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4;
+    background-color: rgba(86, 130, 225, 0.267);
 }
 
 header {
-    background-color: #b08f8f;
+    background-color: #6a8bc2;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -19,7 +19,7 @@ main {
 
 footer {
     background-color: #333;
-    color: rgb(103, 18, 18);
+    color: rgb(60, 91, 153);
     text-align: center;
     padding: 10px 0;
     position: fixed;
