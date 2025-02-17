@@ -26,3 +26,16 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+#Boton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#Boton:hover {
+    background-color: #45a049;
+}
