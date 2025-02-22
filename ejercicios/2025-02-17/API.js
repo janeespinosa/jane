@@ -8,7 +8,8 @@ const datos = [
 // Función para manejar las solicitudes GET
 function manejarGet(req) {
     const url = new URL(req.url, "http://${req.headers.host}");
-    const id = url.searchParams.get("id");
+    const id = url.searchParams.get("id")
+ }
 
     if (id) {
         const usuario = datos.find(u => u.id === parseInt(id));
@@ -27,7 +28,7 @@ function manejarGet(req) {
             headers: { "Content-Type": "application/json" }
         });
     }
-}
+
 
 // Función para manejar las solicitudes POST
 function manejarPost(req) {

@@ -2,11 +2,11 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgba(86, 130, 225, 0.267);
+    background-color: rgba(13, 183, 166, 0.588);
 }
 
 header {
-    background-color: #6a8bc2;
+    background-color: #38a177;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -28,14 +28,14 @@ footer {
 }
 
 #Boton {
-    background-color: #4CAF50;
+    background-color: #5d77f7;
     color: white;
     padding: 10px 20px;
     border-color: black;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 #Boton:hover {
-    background-color: #45a049;
+    background-color: #260dc4;
 }
