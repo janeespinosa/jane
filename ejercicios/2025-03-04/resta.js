@@ -14,8 +14,8 @@ process.stdin.on('data', (data) => {
       console.log('Por favor, ingresa un número válido.');
       process.exit();
     }
-    let sum = num1 + num2; // Ahora se suman como números
-    console.log(`La suma es: ${suma}`); // Interpolación correcta de cadenas
+    let resta = num1 - num2; // Ahora se suman como números
+    console.log(`La resta es: ${resta}`); // Interpolación correcta de cadenas
     process.exit();
   }
 });
