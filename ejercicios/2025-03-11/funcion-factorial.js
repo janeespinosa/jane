@@ -7,5 +7,5 @@ function factorial(n) {
 }
 
 // Ejemplo de uso:
-let numero = 5;
+let numero = 4;
 console.log("El factorial de " ,numero ,"es" ,factorial(numero));
