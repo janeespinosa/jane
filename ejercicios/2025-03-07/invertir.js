@@ -7,6 +7,12 @@ function invertirCadena(cadena) {
 }
 
 
+// Operadores aritmeticos > < >= <= == === != !==
+// Operadores logicos && || !
+// Operadores de asignacion = += -= *= /= %=
+// Operadores de incremento y decremento ++ --
+// Operadores de concatenacion +
+
 const texto = "Hola, mundo!";
 const textoInvertido = invertirCadena(texto);
 console.log(textoInvertido); // Output: "!odnum ,aloH"
